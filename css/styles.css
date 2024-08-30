@@ -1,0 +1,25 @@
+.gallery {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  list-style: none;
+  max-width: calc(3 * 360px + 2 * 24px);
+  margin: 0 auto;
+}
+
+.gallery-image {
+  width: 360px;
+  height: 200px;
+}
+
+.gallery-image.hover,
+.gallery-image.focus {
+  transform: scale (1.05);
+}
+
+.modal {
+  width: 1112px;
+  height: 640px;
+}
+/* user-select: none; */
